@@ -14,7 +14,7 @@ app.use(Cors());
 
 app.use(express.json())
 //dbConfig
-const connection_url = "mongodb+srv://admin:mwe6FS77gVe67QJ@cluster0.7jsce.mongodb.net/tiktokdb?retryWrites=true&w=majority";
+const connection_url = <yourdbConncection here>;
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useCreateIndex: true,
